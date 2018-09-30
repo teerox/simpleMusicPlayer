@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Music Player</string>
+    <string name="song_name">Song</string>
+    <string name="artist">Artist</string>
+    <string name="all_songs">CLICK HERE FOR ALL SONGS</string>
+    <string name="song_name_three">Done for me</string>
+    <string name="song_name_two">Change</string>
+    <string name="song_name_one">The way i am</string>
+    <string name="artist_name_one">Charlie-puth</string>
+    <string name="artist_name_two">Charlie-puth ft James-Taylor</string>
+    <string name="artist_name_three">Charlie-puth ft Kehlani-Done</string>
+    <string name="playing">now_playing</string>
+</resources>

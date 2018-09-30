@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ImageView
+        android:id="@+id/Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/songName"
+        android:src="@drawable/music"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/songName"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/songSinger"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/songSinger"
+        android:layout_marginTop="5dp"
+        android:text="@string/song_name"
+        android:textColor="#7019c1"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/songSinger"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/artist"
+        android:textColor="#259e06"
+        android:textSize="18sp"
+        tools:ignore="RelativeOverlap" />
+    <ImageView
+        android:id="@+id/musicPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/play"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/musicStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:src="@drawable/stop"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
